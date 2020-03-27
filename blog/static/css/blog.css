@@ -1,46 +1,36 @@
-.page-header {
-    background-color: purple;
-    margin-top: 0;
-    padding: 20px 20px 20px 40px;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
-    font-size: 36pt;
-    text-decoration: none;
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
 }
 
-.content {
-    margin-left: 40px;
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
 }
 
-.date {
-    color: #828282;
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
 }
 
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
-    width: 100%;
-}
-
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
-    float: right;
-    font-size: 26pt;
-    margin-right: 20px;
-}
-
-.post {
-    margin-bottom: 70px;
-}
-
-.post h2 a, .post h2 a:visited {
-    color: #000000;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
